@@ -1,0 +1,40 @@
+.light {
+  background-color: white;
+  color: rgb(214, 22, 137);
+}
+
+
+.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    margin-left: 19px;
+}
+.footer-text2 {
+    font-size: 7px;
+}
+.footer-text2 p a {
+    text-decoration: none;
+    color:rgb(214, 22, 137);
+}
+.h4{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linked{
+    text-align: center;
+}
+
+.linked a {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+    margin:6px;
+     color:rgb(214, 22, 137);
+}
+.lil i{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(214, 22, 137);
+    font-size: 14px;
+}

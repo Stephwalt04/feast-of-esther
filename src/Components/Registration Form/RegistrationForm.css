@@ -1,0 +1,36 @@
+.form {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(193, 22, 107);
+}
+.select{
+    margin-left:290px;
+}
+
+.pick label{
+    margin-top: 10px;
+    font-size: 19px;
+    color: white;
+}
+.pick input{
+    margin-top: 7px;
+}
+.form h2{
+    font-size: 50px;
+     color: White;
+     font-weight: bold;
+}
+.btn{
+    /* background-color: rgb(255, 253, 255);
+    color: rgb(209, 33, 153); */
+    font-weight: 700;
+    font-size: 20px;
+    width:85%;
+    margin-top: 40px;
+    border:none;
+}
+.btn:hover{
+    background-color: rgb(209, 33, 153);
+    color:white;
+}
+

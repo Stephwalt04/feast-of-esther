@@ -1,0 +1,38 @@
+.nav {
+  background-color: white;
+}
+
+.navs {
+  margin: auto;
+}
+.board {
+  border: 5px solid rgb(200, 15, 145);
+}
+.feast {
+  display: inline;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(200, 15, 145);
+  font-size: 20px;
+}
+.feel {
+  color: rgb(200, 15, 145);
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.ink {
+  margin-left: 10px;
+  color: rgb(200, 15, 145);
+  text-decoration: none;
+}
+.ink:active {
+  color: rgb(163, 26, 122);
+}
+.ink:hover {
+  color: white;
+  background-color: rgb(196, 13, 132);
+}
+.name {
+  text-decoration: none;
+}
