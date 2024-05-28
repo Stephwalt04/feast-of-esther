@@ -12,7 +12,7 @@ import pg from "../Images/FEASTOFESTHERIMAGES/feast3.jpg";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="ome">
         <div className="home">
           <img
             src={Pix}
@@ -20,13 +20,15 @@ const Home = () => {
             style={{ width: "100%", height: "600px", display: "block" }}
           />
         </div>
-        <div className="center text-center ">
-          <h1 className="welcome">Welcome To Feast Of Esther NA</h1>
+        <div className="enter text-center ">
+          <h1 className="welcome">Welcome To Feast Of Esther</h1>
           <p className="text-black ">
             {" "}
             <b>...the kingdom for such is a time as this, Esther4:14b</b>
           </p>
         </div>
+      </div>
+      <div>
         <div className="bg">
           <Container className="pt-5 pb-5 save">
             <Row>
@@ -57,8 +59,7 @@ const Home = () => {
                     <Card.Text className="text">
                       Pastor Mrs Folu Adeboye is the wife of the General
                       Overseer of the Redeemed Christian Church of God (RCCG)
-                      Worldwide. She’s a Mother, a mentor, a teacher and a woman
-                      in the ministry…
+                      Worldwide.
                       <div className="div">
                         <button type="button">
                           <a href="/founder"> Read More {">"} </a>
@@ -95,7 +96,7 @@ const Home = () => {
           </Container>
         </div>
         <div className="pg2">
-          <div className="mt-5 pg">
+          <div className="pg">
             <img
               src={pg}
               alt=""

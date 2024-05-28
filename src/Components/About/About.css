@@ -5,7 +5,7 @@
   color: rgb(216, 29, 154);
   object-fit: cover;
 }
-.home {
+.ome {
   position: relative;
 }
 .home::after {

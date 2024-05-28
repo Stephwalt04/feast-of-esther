@@ -1,0 +1,305 @@
+
+
+      
+       background-color: rgb(226, 43, 192);
+
+
+
+
+
+
+
+
+
+
+
+          {/* <div class="row">
+            <div class="col-6 bg-black ">
+              <img src={feast2} alt="" className="Name w-100" />
+            </div>
+            <div class="col-6  bow color">
+              <h3>Our Vision</h3>
+              <p className="mt-5">
+                To develop excellent Ministry Skills in women who are called to
+                support and impact the church of God for nation building and
+                stand as pillars in the house of God to accomplish great things
+                for the kingdom.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            </div>
+            <div class="col-6 bg-black ">
+              <img src={feast3} alt="" className="lame" />
+            </div>
+          </div> */}
+
+
+          url('../Images/FEASTOFESTHERIMAGES/feast3.jpg');
+
+            {/* <p>
+                        She’s the Editor-in-Chief of Courage Magazine, the
+                        official publication of RCCG women which helps in
+                        disseminating information on current issues as they
+                        affect Christian Women.
+                      </p>
+                      <p>
+                        Pas Mrs Folu Adeboye is in charge of Hospitality,
+                        Housekeeping, the National Kitchen and the Protocol
+                        Units at the Redemption Camp in Nigeria.
+                      </p> */}
+
+                        {/* <p>
+                        She’s the President of a welfare ministry called certain
+                        women. This welfare ministry caters for the emotional,
+                        financial, material and spiritual needs of widows both
+                        within and outside the church.
+                      </p> */}
+                          {/* <p>
+                        She established the wholistic outreach that evangelizes
+                        sex-workers in major hotels in the cities within and
+                        outside Nigeria.
+                      </p> */}
+
+                        {/* <p>
+                        Also, she established the heritage homes. The RCCG
+                        Heritage Home was established in 1993 by the Good Women
+                        of RCCG who chose to clothe, feed, shelter and most
+                        importantly train orphans and abandoned children to
+                        become disciples of our Lord Jesus Christ.
+                      </p>
+                      <p>
+                        Having achieved all these for God, no wonder God gave
+                        her the mandate to establish the Feast of Esther.
+                      </p> */}
+
+
+
+                        {/* <Col xs={4}>
+                      <p>
+                        The school is well spread in all states of Nigeria and
+                        has spread to many countries of the world especially
+                        along West Africa, Europe, UK and Ireland, Hong Kong and
+                        North America to mention a few.
+                      </p>
+                      <p>
+                        Mummy GO is in charge of Women Affairs. She hosts the
+                        annual Women in Ministry program for all female
+                        ministers in the RCCG all over the world.
+                      </p>
+                    </Col> */}
+                    {/* <Col xs={4}>
+                      <p>
+                        Her heart of compassion drove her to establish some
+                        mission outreaches. She established African missions
+                        which seeks to promote the spread of the gospel all over
+                        the world; promote the development of sustainable
+                        holistic programs all over the world;and also to promote
+                        services that will improve the quality of life of
+                        children, youth and families all over the world.
+                      </p>
+                    </Col> */}
+                    {/* <Col xs={4}>
+                      <p>
+                        She established the habitation of hope which is the home
+                        is for rehabilitation of boys taken off the streets and
+                        to give tyhem a future and a hope in Christ. These
+                        children, who lived and slept on the beach, were
+                        involved in petty armed robbery, sale and use of drugs.
+                        In addition to the academic education, the school also
+                        gives vocational training in basket weaving, artwork and
+                        music.
+                      </p>
+                    </Col> */}
+
+                     {/* <Col sm={12} md={6}>
+              <Form.Group controlId="formCountry">
+                <Form.Label>Country</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Enter your country"
+                  style={{ width: "70%" }}
+                  value={formData.country}
+                  onChange={handleChange}
+                />
+              </Form.Group>
+            </Col> */}
+
+
+
+
+
+            {/* <div className="form-group pick">
+              <label>First Name</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleChange}
+                required
+              /> */}
+      {/* <form onSubmit={handleSubmit} method="post">
+        <Container className="text">
+          <div className="select">
+            <div className="form-group pick">
+              <label>First Name</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleChange}
+                required
+              />
+              <label>Last Name</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}
+                required
+              />
+              <label>Email</label>
+              <input
+                type="email"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+              <label>Phone Number</label>
+              <input
+                type="number"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                required
+              />
+              <label>Street Address</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="streetAddress"
+                value={formData.streetAddress}
+                onChange={handleChange}
+                required
+              />
+              <label>Apartment</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="apartment"
+                value={formData.apartment}
+                onChange={handleChange}
+                required
+              />
+              <label>city</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="city"
+                value={formData.city}
+                onChange={handleChange}
+                required
+              />
+              <label>Zip/Postal Code</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="postalCode"
+                value={formData.postalCode}
+                onChange={handleChange}
+                required
+              />
+              <label>Country</label>
+              <select
+                className="form-control"
+                style={{ width: "70%" }}
+                name="country"
+                value={formData.country}
+                onChange={handleChange}
+                required
+              >
+                {countries.map((country, index) => (
+                  <option key={index} value={country}>
+                    {country}
+                  </option>
+                ))}
+              </select>
+              <label>Name of your church</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="NameOfChurch"
+                value={formData.churchName}
+                onChange={handleChange}
+                required
+              />
+              <label>Position In Ministry</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="Position In Ministry"
+                value={formData.ministryPosition}
+                onChange={handleChange}
+                required
+              />
+              <label>Title In Office</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="Title In Office"
+                value={formData.officeTitle}
+                onChange={handleChange}
+                required
+              />
+              <label>Husband's Name</label>
+              <input
+                type="text"
+                className="form-control"
+                style={{ width: "70%" }}
+                name="Husband's Name"
+                value={formData.husbandName}
+                onChange={handleChange}
+                required
+              />
+
+              <label>T-Shirt Size </label>
+              <select
+                className="form-control"
+                style={{ width: "70%" }}
+                name="tShirtSize"
+                value={formData.tShirtSize}
+                onChange={handleChange}
+                required
+              >
+                {TShirt.map((tShirtSize, index) => (
+                  <option key={index} value={tShirtSize}>
+                    {tShirtSize}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <button type="submit" className="btn">
+              Submit
+            </button>
+          </div>
+        </Container>
+      </form> */}

@@ -5,31 +5,32 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import flyer2 from "../Images/FEASTOFESTHERIMAGES/flyer.jpg";
 import { Link } from "react-router-dom";
 
-
 const Event = () => {
   return (
     <>
       <div>
-        <div className="hame">
-          <img
-            src={flyer}
-            alt=""
-            style={{ width: "100%", height: "400px", display: "block" }}
-          />
-        </div>
-        <div className="code text-center ">
-          <h4>FEAST OF ESTHER NA 2024 EVENT PROGRAM</h4>
-          <p className="text-white ">
-            {" "}
-            <b>
-              Exclusive forum for the first lady in the ministry & Christian
-              Organisation
-              <br />
-              Please endeavour to fill your registration form. For further
-              inquiries please use the contact information contained in the
-              contact page.
-            </b>
-          </p>
+        <div className="ame">
+          <div className="hame">
+            <img
+              src={flyer}
+              alt=""
+              style={{ width: "100%", height: "400px", display: "block" }}
+            />
+          </div>
+          <div className="code text-center ">
+            <h4>FEAST OF ESTHER NA 2024 EVENT PROGRAM</h4>
+            <p className="text-white ">
+              {" "}
+              <b>
+                Exclusive forum for the first lady in the ministry & Christian
+                Organisation
+                <br />
+                Please endeavour to fill your registration form. For further
+                inquiries please use the contact information contained in the
+                contact page.
+              </b>
+            </p>
+          </div>
         </div>
         <div className="bg-light alt">
           <Container>

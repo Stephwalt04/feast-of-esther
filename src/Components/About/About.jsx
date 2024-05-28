@@ -7,24 +7,26 @@ function About() {
   return (
     <>
       <div>
-        <div className="home">
-          <img
-            src={imag}
-            alt=""
-            style={{ width: "100%", height: "600px", display: "block" }}
-          />
-        </div>
-        <div className="center text-center ">
-          <h1>About Us</h1>
-          <p className="text-white ">
-            {" "}
-            <b>
-              Feast of Esther is an annual Feast organized by the wife of the
-              General Overseer of the Redeemed Christian Church of God Pastor
-              (Mrs.) Folu Adeboye. It is a vision and a divine assignment given
-              by God.
-            </b>
-          </p>
+        <div className="ome">
+          <div className="home">
+            <img
+              src={imag}
+              alt=""
+              style={{ width: "100%", height: "600px", display: "block" }}
+            />
+          </div>
+          <div className="center text-center ">
+            <h1>About Us</h1>
+            <p className="text-white ">
+              {" "}
+              <b>
+                Feast of Esther is an annual Feast organized by the wife of the
+                General Overseer of the Redeemed Christian Church of God Pastor
+                (Mrs.) Folu Adeboye. It is a vision and a divine assignment
+                given by God.
+              </b>
+            </p>
+          </div>
         </div>
         <div className="bg pt-5 pb-5">
           <Container>
