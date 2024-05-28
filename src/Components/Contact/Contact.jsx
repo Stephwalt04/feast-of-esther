@@ -39,7 +39,12 @@ const Contact = () => {
           <Row className="position">
             <Col xs={6} className="bg-secondary pt-3 pb-5">
               <h1 className="text-center text-white ">Contact Us</h1>
-              <Form onSubmit={handleSubmit} className="form4" method="post">
+              <Form
+                onSubmit={handleSubmit}
+                className="form4"
+                method="post"
+                target="_blank"
+              >
                 <label>Your Name</label>
                 <input
                   type="text"

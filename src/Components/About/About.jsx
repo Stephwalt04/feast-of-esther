@@ -13,6 +13,7 @@ function About() {
               src={imag}
               alt=""
               style={{ width: "100%", height: "600px", display: "block" }}
+              className="img-fluid"
             />
           </div>
           <div className="center text-center ">

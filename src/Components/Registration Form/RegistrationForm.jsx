@@ -78,7 +78,12 @@ const RegistrationForm = () => {
       <h2 className="text-center">Registration Form</h2>
 
       <Container className="mt-4 text pb-5">
-        <Form onSubmit={handleSubmit} method="post" className="text-white">
+        <Form
+          onSubmit={handleSubmit}
+          method="post"
+          className="text-white"
+          target="_blank"
+        >
           <Row>
             <Col sm={12} md={6}>
               <Form.Group controlId="formFirstName" className="pick">

@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Pix from "../Images/FEASTOFESTHERIMAGES/new.jpg";
 import "./Home.css";
 import { Container, Card, Row, Col } from "react-bootstrap";
-import zip from "../Images/FEASTOFESTHERIMAGES/carousel.jpg";
+import zip from "../Images/FEASTOFESTHERIMAGES/esther.JPG";
 import mummy from "../Images/FEASTOFESTHERIMAGES/all.jpg";
 import save from "../Images/FEASTOFESTHERIMAGES/save.jpg";
-import pg from "../Images/FEASTOFESTHERIMAGES/feast3.jpg";
+import pg from "../Images/FEASTOFESTHERIMAGES/boss.JPG";
 
 const Home = () => {
   return (
@@ -18,6 +18,7 @@ const Home = () => {
             src={Pix}
             alt=""
             style={{ width: "100%", height: "600px", display: "block" }}
+            className="img-fluid"
           />
         </div>
         <div className="enter text-center ">
@@ -106,7 +107,7 @@ const Home = () => {
           </div>
           <div className="cent text-center ">
             <h1 className="welcome">Our Vision</h1>
-            <p className="text-white ">
+            <p className="text-white">
               {" "}
               <b>
                 To develop excellent Ministry Skills in women who are called to
