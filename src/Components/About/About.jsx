@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import imag from "../Images/FEASTOFESTHERIMAGES/PG.jpg";
+import imag from "../Images/FEASTOFESTHERIMAGES/about.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
@@ -22,8 +22,7 @@ function About() {
               <b>
                 Feast of Esther is an annual Feast organized by the wife of the
                 General Overseer of the Redeemed Christian Church of God Pastor
-                (Mrs.) Folu Adeboye. It is a vision and a divine assignment
-                given by God.
+                (Mrs.) Folu Adeboye. 
               </b>
             </p>
           </div>
