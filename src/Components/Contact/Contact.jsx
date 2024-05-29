@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="body2">
         <Container>
           <Row className="position">
-            <Col xs={6} className="bg-secondary pt-3 pb-5">
+            <Col sm={12} md={4} className="bg-secondary pt-3 pb-5">
               <h1 className="text-center text-white ">Contact Us</h1>
               <Form
                 onSubmit={handleSubmit}
@@ -78,7 +78,7 @@ const Contact = () => {
                 <input type="button" value="Submit" className="btn3" />
               </Form>
             </Col>
-            <Col xs={6} className="head pt-3 pb-5">
+            <Col sm={12} md={4} className="head pt-3 pb-5">
               <h1 className="text-center mb-3">Get In touch with us</h1>
               <div className="text-center accord">
                 <h6>FEAST OF ESTHER NORTH AMERICA USA:</h6>
