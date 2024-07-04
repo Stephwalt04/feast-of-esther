@@ -38,16 +38,12 @@
     background-color: rgb(198, 18, 111);
     color:white;
 }
-.move{
-    margin-left:180px;
-}
+
 .accord p{
    font-size: 15px;
 }
 
 .position {
-   margin-left: 0px;
-   background-color: blueviolet;
     padding: 40px 0 40px 0;
 }
 
