@@ -15,6 +15,46 @@ import {
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
+
+// const Contact = () => {
+//   const [formData, setFormData] = useState({
+//     yourName: "",
+//     yourEmail: "",
+//     yourMessage: "",
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({ ...formData, [name]: value });
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     const formDataObject = new FormData();
+//     formDataObject.append("yourName", formData.yourName);
+//     formDataObject.append("yourEmail", formData.yourEmail);
+//     formDataObject.append("yourMessage", formData.yourMessage);
+
+//     fetch(
+//       "https://script.google.com/macros/s/AKfycbzaX9275JHoF68IMluBLlKwi873KSaFLwnWi27AXcJRDfBwtHxLE4Vxb8xACdp8WFd9/exec",
+//       {
+//         method: "POST",
+//         body: formDataObject,
+//       }
+//     )
+//       .then((response) => response.json())
+//       .then((data) => {
+//         console.log("Success:", data);
+//       })
+//       .catch((error) => {
+//         console.error("Error:", error);
+//       });
+//   };
+
+
+
+
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     yourName: "",
@@ -27,17 +67,44 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+
+    // Construct FormData object
+    const formDataObject = new FormData();
+    formDataObject.append("yourName", formData.yourName);
+    formDataObject.append("yourEmail", formData.yourEmail);
+    formDataObject.append("yourMessage", formData.yourMessage);
+
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbz1rskrNhQG1VFjeZz2ZuP1vNHXoX1_d1tyX5mr59viBHBgslYuzUGN-o37zYgRE6ri/exec",
+        {
+          method: "POST",
+          body: formDataObject,
+          mode: 'no-cors'
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log("Success:", data);
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
+
+ 
 
   return (
     <>
       <div className="body2">
         <Container>
           <Row className="position">
-            <Col sm={12} md={4} className="bg-secondary pt-3 pb-5">
+            <Col sm={12} md={4} className="bg-secondary pt-3 pb-5 move">
               <h1 className="text-center text-white ">Contact Us</h1>
               <Form
                 onSubmit={handleSubmit}
@@ -75,7 +142,12 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                 ></textarea>
-                <input type="button" value="Submit" className="btn3" />
+                <input
+                  type="button"
+                  value="Submit"
+                  className="btn3"
+                  onClick={handleSubmit}
+                />
               </Form>
             </Col>
             <Col sm={12} md={4} className="head pt-3 pb-5">

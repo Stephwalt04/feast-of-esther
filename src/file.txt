@@ -303,3 +303,12 @@
           </div>
         </Container>
       </form> */}
+
+
+
+       const formedData = new Formdata(handleSubmit){
+    fetch("https://script.google.com/macros/s/AKfycbzaX9275JHoF68IMluBLlKwi873KSaFLwnWi27AXcJRDfBwtHxLE4Vxb8xACdp8WFd9/exec", {
+      method: "POST",
+      body: JSON.stringify(formedData),
+       })
+  }
